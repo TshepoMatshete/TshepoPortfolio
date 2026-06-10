@@ -3,36 +3,355 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tshepo's Portfolio</title>
+    <title>Tshepo Matshete Portfolio - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Your semantic HTML structure here -->
-    <header>
-        <h1>Welcome to Tshepo's Portfolio</h1>
+    <!-- Shooting Stars Background -->
+    <div class="stars">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">Tshepo Matshete</a>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">// home</a></li>
+                    <li><a href="#about" class="nav-link">// about</a></li>
+                    <li><a href="#skills" class="nav-link">// skills</a></li>
+                    <li><a href="#projects" class="nav-link">// projects</a></li>
+                    <li><a href="#experience" class="nav-link">// experience</a></li>
+                    <li><a href="#contact" class="nav-link">// contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>About me</h2>
-            <p>I’m a final year computer science student at the university of the witwatersrand who enjoys coding, problem-solving, and learning new technologies. I like building things, experimenting with ideas,critical thinking, and improving my skills through hands-on projects.
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Rodgers Tshepo Matshete</h1>
+            <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+            <p class="hero-description">
+                Crafting beautiful, responsive web experiences with modern technologies.
             </p>
-            <p>
-            I’m particularly interested in growing into a strong software engineer by working on real systems(like my GoWash project) that people can actually use. I like taking ideas from scratch, designing how the pieces should work, and then building, testing, and improving them until they’re solid. Through my journey of developing my web application, I’ve learned that I enjoy writing clean code, solving tricky implementation problems, and continuously refining solutions to be faster, simpler, and more reliable.
-            </p>
-        </section>
-        <article>
-            <h3>Latest Project</h3>
-            <p>The latest project I’m working on is a web application that lets people enjoy the convenience of a laundromat from the comfort of their homes by ordering laundry pickup and delivery services. I built the project using Next.js, with TypeScript for the backend, React for the frontend, and Supabase for the database and authentication. I also integrated AI to help customers choose the best service plan based on the type and amount of clothes they want dry cleaned. The project is called GoWash "when you gowish... we GoWash for you" :). Through building it, I’ve been getting more comfortable thinking about scalability, user experience, and how different parts of a production system communicate with each other using the scrum. It’s been a great way to practice writing maintainable code while solving real problems that a business and its customers might face.</p>
-        </article>
-        <footer>
-            © 2026 2627330 | Built with Semantic HTML
-        </footer>
-    </main>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m a final year computer science student at the university of the witwatersrand who enjoys coding, problem-solving, and learning new technologies. I like building things, experimenting with ideas,critical thinking, and improving my skills through hands-on projects.
+                    </p>
+                    <p>
+                        I’m particularly interested in growing into a strong software engineer by working on real systems(like my GoWash project) that people can actually use. I like taking ideas from scratch, designing how the pieces should work, and then building, testing, and improving them until they’re solid. Through my journey of developing my web application, I’ve learned that I enjoy writing clean code, solving tricky implementation problems, and continuously refining solutions to be faster, simpler, and more reliable.
+                    </p>
+                </div>
+                <div class="about-stats">
+                     <div class="stat">
+                        <h3>4+ years</h3>
+                        <p>Coding Experiance</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+    <img src="https://images.icon-icons.com/600/PNG/96/website-optimization-icon_icon-icons.com_55720.png" alt="Website Icon">
+</div>
+                    <h3>Frontend Development</h3>
+                    <p>React, Vue, JavaScript, HTML/CSS, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+    <img src="https://images.icon-icons.com/3058/PNG/512/mining_data_database_server_storage_icon_190637.png" alt="Server Icon">
+</div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, MongoDB, PostgreSQL, REST APIs</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+    <img src="https://images.icon-icons.com/2699/PNG/512/figma_logo_icon_170157.png" alt="Design Icon">
+</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Prototyping, User Research, Design Systems</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+    <img src="https://images.icon-icons.com/2107/PNG/512/file_type_aws_icon_130732.png" alt="AWS Icon">
+</div>
+                    <h3>DevOps & Deployment</h3>
+                    <p>Docker, AWS, GitHub Actions, CI/CD, Cloud Services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-content">
+                        <h3>CampusMarkets</h3>
+                        <p>
+                            A full-stack e-commerce solution with product catalog, shopping cart, payment integration, 
+                            and admin dashboard.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">PayFast</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-content">
+                        <h3>MovieRoom</h3>
+                        <p>
+                            A collaborative task management application with real-time updates, team collaboration features, 
+                            and progress tracking.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-content">
+                        <h3>Tshepo-Portfolio</h3>
+                        <p>
+                            A modern, responsive portfolio website showcasing projects, skills, and experience with smooth 
+                            animations and scroll effects.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-content">
+                        <h3>Tshepo-Portfolio</h3>
+                        <p>
+                            A modern, responsive portfolio website showcasing projects, skills, and experience with smooth 
+                            animations and scroll effects.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Developer</h3>
+                        <p class="timeline-date">Company Name - 2022 - Present</p>
+                        <p class="timeline-description">
+                            Led development of scalable web applications, managed team of developers, and implemented best practices.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <p class="timeline-date">Previous Company - 2020 - 2022</p>
+                        <p class="timeline-description">
+                            Built and maintained full-stack applications, collaborated with cross-functional teams, improved system performance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Junior Developer</h3>
+                        <p class="timeline-date">Starting Company - 2019 - 2020</p>
+                        <p class="timeline-description">
+                            Developed responsive web applications, worked on frontend and backend features, learned industry best practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always interested in hearing about new projects and opportunities.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:rodgersmatshete0@gmail.com" class="contact-method">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>rodgersmatshete0@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/rodgers-matshete-017756311" target="_blank" rel="noopener noreferrer" class="contact-method">
+                        <span class="contact-icon">💼</span>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/rodgers-matshete-017756311</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/TshepoMatshete" target="_blank" rel="noopener noreferrer" class="contact-method">
+                        <span class="contact-icon">🐙</span>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/TshepoMatshete</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tshepo's Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://linkedin.com/in/rodgers-matshete-017756311" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/TshepoMatshete" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
